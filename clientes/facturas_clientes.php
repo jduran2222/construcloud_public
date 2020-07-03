@@ -25,7 +25,7 @@ $where_c_coste=" id_c_coste={$_SESSION['id_c_coste']} " ;   // AND $where_c_cost
 
 <?php 
 
-//require_once("../include/conexion.php"); 
+//require_once("../../conexion.php"); 
 //require_once("../include/funciones.php"); 
 require_once("../menu/topbar.php");
 

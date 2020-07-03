@@ -7,7 +7,7 @@ $where_c_coste=" id_c_coste={$_SESSION['id_c_coste']} " ;
 $id_fra=$_GET["id_fra"];
 
 
- require_once("../include/conexion.php");
+ require_once("../../conexion.php");
  require_once("../include/funciones.php");
  
  

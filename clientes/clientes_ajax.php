@@ -10,7 +10,7 @@ $filtro=$_GET["filtro"]  ;
 
 if (strlen($filtro)>=3)
 {
- require_once("../include/conexion.php");
+ require_once("../../conexion.php");
 
  $sql="Select id_cliente,cliente FROM Clientes WHERE cliente LIKE '%$filtro%' AND $where_c_coste ORDER BY cliente LIMIT 5" ;
  $result = $Conn->query($sql);

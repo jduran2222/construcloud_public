@@ -2,7 +2,7 @@
 require_once("../include/session.php");
 $where_c_coste=" id_c_coste={$_SESSION['id_c_coste']} " ;
 
-require_once("../include/conexion.php");
+require_once("../../conexion.php");
 require_once("../include/funciones.php");
 
 //
@@ -11,7 +11,7 @@ require_once("../include/funciones.php");
 //{        // devuelvo valor o 0 si no encuentro nada
 //    if (!isset($GLOBALS["Conn"]))
 //    {                          // si no hay conexion abierta la abro yo
-//        require_once("../include/conexion.php");
+//        require_once("../../conexion.php");
 //        $nueva_conn = true;
 //    } else
 //    {

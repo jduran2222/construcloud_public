@@ -10,7 +10,7 @@ $cliente=strtoupper(ltrim(rtrim($_POST["cliente"]))) ;
 
 
 // registramos el documento en la bbdd
-require_once("../include/conexion.php"); 
+require_once("../../conexion.php"); 
 require_once("../include/funciones.php"); 
 
 		

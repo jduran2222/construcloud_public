@@ -2,10 +2,12 @@
 require_once("../include/session.php");
 $where_c_coste=" id_c_coste={$_SESSION['id_c_coste']} " ;
 
- require_once("../include/conexion.php");
+ require_once("../../conexion.php");
  require_once("../include/funciones.php");
 
 $titulo_pagina="Pof " . Dfirst("CONCAT(NUMERO,'-',NOMBRE_POF)","POF_lista", "ID_POF={$_GET["id_pof"]} AND $where_c_coste"  ) ;
+
+//juan duran
 ?>
 
 <HTML>
@@ -30,7 +32,7 @@ $titulo_pagina="Pof " . Dfirst("CONCAT(NUMERO,'-',NOMBRE_POF)","POF_lista", "ID_
 $id_pof=$_GET["id_pof"];
 
 //<!-- CONEXION CON LA BBDD Y MENUS -->
-//require_once("../include/conexion.php"); 
+//require_once("../../conexion.php"); 
 //require_once("../include/funciones.php");
 
 require_once("../menu/topbar.php");

@@ -4,7 +4,7 @@ $where_c_coste=" id_c_coste={$_SESSION['id_c_coste']} " ;
 
 
 // registramos el documento en la bbdd
-require_once("../include/conexion.php"); 
+require_once("../../conexion.php"); 
 require_once("../include/funciones.php"); 
 
 		

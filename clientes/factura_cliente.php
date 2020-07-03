@@ -2,7 +2,7 @@
 require_once("../include/session.php");
 $where_c_coste=" id_c_coste={$_SESSION['id_c_coste']} " ;
 
- require_once("../include/conexion.php");
+ require_once("../../conexion.php");
  require_once("../include/funciones.php");
 
 $titulo_pagina="Fra_Cliente " . Dfirst("NOMBRE_OBRA","Fras_Cli_Listado", "ID_FRA={$_GET["id_fra"]} AND $where_c_coste"  ) ;
@@ -36,7 +36,7 @@ $titulo_pagina="Fra_Cliente " . Dfirst("NOMBRE_OBRA","Fras_Cli_Listado", "ID_FRA
 
 $id_fra=$_GET["id_fra"];
 
- require_once("../include/conexion.php");
+ require_once("../../conexion.php");
  require_once("../include/funciones.php");
  require_once("../include/funciones_js.php");
  require_once("../menu/topbar.php");

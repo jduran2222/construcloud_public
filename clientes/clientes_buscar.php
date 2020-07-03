@@ -114,7 +114,7 @@ window.location="clientes_ficha.php?id_cliente="+val;
 <!-- FIN  EL AJAX    -->			
 		
 
-<?php require_once("../include/conexion.php"); ?> 
+<?php require_once("../../conexion.php"); ?> 
 <BR><B>clientes</B><BR>
 
 <?php 

@@ -23,7 +23,7 @@ $where_c_coste=" id_c_coste={$_SESSION['id_c_coste']} " ;
 
 $id=$_GET["id"];
 
-// require_once("../include/conexion.php");
+// require_once("../../conexion.php");
 // require_once("../include/funciones.php");
  require_once("../menu/topbar.php");
 // require_once("../menu/menu_migas.php");
